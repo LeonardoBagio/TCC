@@ -27,12 +27,12 @@ Este projeto foi criado como estudo de caso para conclusão de curso de Engenhar
 
 ## 🎈 Pacotes <a name="pacote"></a>
 
-* Para melhor organização, foi alocado todas variáveis de configuração no seguinte arquivo - [Configuracao.h](../TCC/src/parametro/Configuracao.h)
+* Para melhor organização, foi alocado todas variáveis de configuração no seguinte arquivo - [Configuracao.h](src\parametro\Configuracao.h)
 * Foi separado o sistema em diferentes tarefas utilizando RTOS - Envio informação, hibernação, malha aberta, malha fechada
-	* Envio de informação está alocado no [main.cpp](../TCC/src\main.cpp)
-	* Hibernação está alocado no [main.cpp](../TCC/src\main.cpp)
-	* Sistema de malha aberta está alocado no [sistemaPorTempo.h](../TCC/src\subSistema\sistemaPorTempo.h)
-	* Sistema de malha fechada está alocado no [sistemaPorSensor.h](../TCC/src\subSistema\sistemaPorSensor.h)
+	* Envio de informação está alocado no [main.cpp](src\main.cpp)
+	* Hibernação está alocado no [main.cpp](src\main.cpp)
+	* Sistema de malha aberta está alocado no [sistemaPorTempo.h](src\subSistema\sistemaPorTempo.h)
+	* Sistema de malha fechada está alocado no [sistemaPorSensor.h](src\subSistema\sistemaPorSensor.h)
 
 ## 🚀 Desenvolvimento <a name = "desenvolvimento"></a>
 
