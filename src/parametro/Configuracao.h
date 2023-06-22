@@ -19,7 +19,7 @@
 #define TRESuHORAS					18
 #define QUATROuHORAS				24
 const char* INICIOuSISTEMA	= "08:00:00";
-const char* FINALuSISTEMA	= "17:00:00";
+const char* FINALuSISTEMA	= "18:00:00";
 
 // DEFINIÇÃO DOS VALORES REFERENTE OS CORE'S DO ESP32
 int primeiroCore = 0;
@@ -27,11 +27,11 @@ int segundoCore	 = 1;
 
 // CREDENCIAIS PARA USO DA WIFI
 const char hostName[]   = "ESP32";
-const char redeWifi[]	= "TP_escritorio";
-const char senhaWifi[] 	= "34476108";
+const char redeWifi[]	= "NOMEuREDEuWIFI";
+const char senhaWifi[] 	= "SENHAuREDEuWIFI";
 
 // CREDENCIAIS PARA O USO DO SERVIDOR
-const char* servidor 	= "rest-api-leonardo.herokuapp.com";
+const char* servidor 	= "ENDERECOuAPI.herokuapp.com";
 const uint16_t porta 	= 80;
 String caminho			= "/";
 
@@ -53,7 +53,7 @@ int AMOSTRA				 = 1000;
 int PERCENTUALuSOLOuSECO = 70;
 
 // VARIÁVEIS NECESSÁRIAS PARA RODAR O SISTEMA DO SENSOR 2
-int TEMPOuPADRAO 			= 4000;
+int TEMPOuPADRAO 			= 3000;
 const char* DIAuSEMANA      = "0";
 const char* NOVEuHORAS      = "09:00:00";
 const char* DOZEuHORAS      = "12:00:00";
